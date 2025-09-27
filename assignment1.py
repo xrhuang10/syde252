@@ -3,10 +3,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-t = np.linspace(-10, 10, 1000)
+t = np.linspace(0, 10, 1000)
 x = np.exp(-(1+1j*np.pi/2)*t)
 plt.plot(t, x.real)
-plt.savefig('assignment1.jpg')
+plt.savefig('assignment1_plot.jpg')
 plt.show()
 
 #Explanation:
